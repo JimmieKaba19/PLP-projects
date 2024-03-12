@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .sections {
+            height: 50vw;
+            width: 100vw;
+        }
+        .header {
+            display: flex;
+            justify-content: space-around;
+            position: fixed;
+            right: 0;
+            top: 0;
+            left: 0;
+            height: 80px;
+            background-color: white;
+            z-index: 100;
+            border: 1px solid black;
+        }
+
+        .header ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        ul li {
+            font-size: 20px;
+            list-style: none;
+        }
+        li a {
+            color: black;
+        }
+        main {
+            position: relative;
+            top: 100px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border: 1px solid blue;
+        }
+    </style>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="../Rout-ing_system/Images/_192bc5e7-479d-4966-b879-f50a4457e4f1.jpeg" alt="Logo">
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">projects</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="sections">
+            <h1 id="home">Home</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A pariatur maiores harum earum. Labore quibusdam odio, laborum ea error ratione!
+        </div>
+        <div class="sections">
+            <h1 id="about">About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam laborum placeat veniam dolorem! Sint magni nulla molestias similique cum.</p>
+        </div>
+        <div class="sections">
+            <h1 id="projects">Projects</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in consectetur mollitia nesciunt reprehenderit dolores magni vitae optio quos ullam.</p>
+        </div>
+    </main>
+</body>
+</html>
